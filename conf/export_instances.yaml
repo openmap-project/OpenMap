@@ -1,0 +1,5 @@
+defaults:
+  - base_config
+  - _self_
+
+semantic_info_path: semantic_info

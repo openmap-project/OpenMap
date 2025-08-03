@@ -1,0 +1,5 @@
+defaults:
+  - base_config
+  - _self_
+
+label_feature_save_path: ${project_root}/data/scannet_label_features.pth

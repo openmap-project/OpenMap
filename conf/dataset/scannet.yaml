@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+name: scannet
+step: 10
+data_root: /root/autodl-tmp/scannet
+output_dir: /root/autodl-tmp/3DMap/outputs/scannet_outputs
+target_labels: SCANNET_LABELS
+target_label_descriptions: SCANNET_LABELS_DESCRIPTION
+target_ids: SCANNET_IDS
+label_feature_save_path: ${project_root}/data/scannet_label_features.pth

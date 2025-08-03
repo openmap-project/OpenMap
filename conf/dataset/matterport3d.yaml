@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+name: matterport3d
+step: 1
+data_root: /root/autodl-tmp/mp3d9
+target_labels: MATTERPORT_LABELS
+target_label_descriptions: MATTERPORT_LABEL_DESCRIPTIONS
+target_ids: MATTERPORT_IDS
+label_feature_save_path: ${project_root}/data/mp3d_label_features.pth

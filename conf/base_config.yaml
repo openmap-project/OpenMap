@@ -1,0 +1,19 @@
+defaults:
+  - dataset: scannet
+  - splits: scannet_all
+
+seq_name: scene0011_00
+debug: True
+project_root: /root/autodl-tmp/3DMap
+data_root: /root/autodl-tmp/scannet
+device: gpu
+
+hydra:
+  job:
+    chdir: True
+  run:
+    dir: ${project_root}/outputs/scannet_outputs
+
+OPENAI_KEY: sk-3d310270db5447de938fb4822364164f
+base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+model: deepseek-v3

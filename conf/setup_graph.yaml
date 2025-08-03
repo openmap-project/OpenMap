@@ -1,0 +1,19 @@
+defaults:
+  - base_config
+  - _self_
+
+vis: False
+use_mean: True
+use_dbscan: False
+dbscan_eps: 0.2
+use_repre: True
+area_thresh: 0.005
+repre_num: 5
+
+mask_visible_threshold: 0.3
+undersegment_filter_threshold: 0.3
+view_consensus_threshold: 0.62
+contained_threshold: 0.8
+point_filter_threshold: 0.5
+
+semantic_info_path: semantic_info

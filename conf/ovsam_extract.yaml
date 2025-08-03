@@ -1,0 +1,7 @@
+defaults:
+  - base_config
+  - _self_
+
+ovsam_model_path: ${project_root}/third_party/ovsam/sam_r50x16_fpn.py
+
+ovsam_src_root_path: /root/autodl-tmp/scannet

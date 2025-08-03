@@ -1,0 +1,14 @@
+defaults:
+  - base_config
+  - _self_
+
+
+pred_path: semantic_info
+gt_path: ${project_root}/outputs/scannet_outputs/gt
+dataset:  scannet
+no_class: false
+output_file: semantic_eval.txt
+overlaps: 
+min_region_sizes:
+distance_threshes: 
+distance_confs:
