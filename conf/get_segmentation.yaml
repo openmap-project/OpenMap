@@ -3,8 +3,8 @@ defaults:
   - _self_
 
 config_file: ${project_root}/third_party/detectron2/projects/CropFormer/configs/entityv2/entity_segmentation/mask2former_hornet_3x.yaml
-root: /root/autodl-tmp/scannet
-output_dir: /root/autodl-tmp/3DMap/outputs/scannet_outputs/
+root: ${project_root}/data/scannet
+output_dir: ${project_root}/outputs/scannet_outputs/
 image_path_pattern: "color/*0.jpg"
 confidence_threshold: 0.5
 opts:
