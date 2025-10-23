@@ -1,5 +1,50 @@
-# OpenMap
-Official implementation of OpenMap: A zero-shot open-vocabulary visual-language mapping framework for instruction grounding (ACM MM 2025)
+<div align="center">
+
+<h1 style="font-size:28px; font-weight:700; margin-bottom:10px;">
+OpenMap: A Zero-shot Open-Vocabulary Visual-Language Mapping Framework for Instruction Grounding
+</h1>
+
+<p style="font-size:16px; line-height:1.5; margin-bottom:10px;">
+<a href="mailto:lidanyang1919@gmail.com">Danyang&nbsp;Li<sup>*</sup></a>,
+<a href="mailto:zenghuiyang36@gmail.com">Zenghui&nbsp;Yang<sup>*</sup></a>,
+<a href="mailto:qigp@inspur.com">Guangpeng&nbsp;Qi</a>,
+<a href="mailto:pangst@inspur.com">Songtao&nbsp;Pang</a>,
+<a href="mailto:shangguangyong@inspur.com">Guangyong&nbsp;Shang</a>,
+<a href="mailto:tsinghuamq@gmail.com">Qiang&nbsp;Ma<sup>†</sup></a>,
+<a href="mailto:hmilyyz@gmail.com">Zheng&nbsp;Yang</a>
+</p>
+
+<p style="font-size:15px; margin-top:-5px;">
+Tsinghua University · Central South University · Inspur Yunzhou Industrial Internet Co., Ltd<br>
+<i>ACM MM 2025</i><br>
+<sup>*</sup>Equal Contribution · <sup>†</sup>Corresponding Author
+</p>
+
+<p style="margin-top:10px;">
+<a href="https://arxiv.org/pdf/2508.01723.pdf">
+  <img src="https://img.shields.io/badge/Paper-PDF-red?style=for-the-badge&logo=adobeacrobatreader" alt="Paper">
+</a>
+<a href="https://github.com/openmap-project/openmap">
+  <img src="https://img.shields.io/badge/Code-GitHub-black?style=for-the-badge&logo=github" alt="Code">
+</a>
+<a href="https://arxiv.org/abs/2508.01723">
+  <img src="https://img.shields.io/badge/arXiv-2508.01723-b31b1b?style=for-the-badge&logo=arxiv" alt="arXiv">
+</a>
+</p>
+
+<hr style="width:60%; margin:20px auto;">
+
+<img src="media/intro.png" alt="OpenMap Overview" width="600" style="border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1); margin-top:10px;">
+
+<p style="font-size:14px; line-height:1.5; text-align:left; max-width:800px; margin:15px auto;">
+<strong>OpenMap constructs an open-vocabulary visual-language map.</strong>
+(a) OpenMap performs fine-grained, instance-level semantic mapping on navigation scenes from Matterport3D.
+(b) OpenMap accurately grounds generic instructions to the targets, where darker regions in the heatmaps indicate stronger alignment between the instruction and the predicted instance.
+</p>
+
+<hr style="width:60%; margin:20px auto;">
+</div>
+
 
 
 
