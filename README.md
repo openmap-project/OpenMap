@@ -32,8 +32,6 @@ Tsinghua University · Central South University · Inspur Yunzhou Industrial Int
 </a>
 </p>
 
-<hr style="width:60%; margin:20px auto;">
-
 <img src="media/intro.png" alt="OpenMap Overview" width="600" style="border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1); margin-top:10px;">
 
 <p style="font-size:14px; line-height:1.5; text-align:left; max-width:800px; margin:15px auto;">
@@ -41,8 +39,6 @@ Tsinghua University · Central South University · Inspur Yunzhou Industrial Int
 (a) OpenMap performs fine-grained, instance-level semantic mapping on navigation scenes from Matterport3D.
 (b) OpenMap accurately grounds generic instructions to the targets, where darker regions in the heatmaps indicate stronger alignment between the instruction and the predicted instance.
 </p>
-
-<hr style="width:60%; margin:20px auto;">
 </div>
 
 
