@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1 style="font-size:28px; font-weight:700; margin-bottom:10px;">
-OpenMap: A Zero-shot Open-Vocabulary Visual-Language Mapping Framework for Instruction Grounding
+OpenMap: Instruction Grounding via Open-Vocabulary Visual-Language Mapping
 </h1>
 
 <p style="font-size:16px; line-height:1.5; margin-bottom:10px;">
