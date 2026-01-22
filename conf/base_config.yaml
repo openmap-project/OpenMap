@@ -14,6 +14,18 @@ hydra:
   run:
     dir: ${project_root}/outputs/scannet_outputs
 
-OPENAI_KEY: sk-3d310270db5447de938fb4822364164f
+# =========================
+# OpenAI / LLM Configuration
+# =========================
+
+# !!! IMPORTANT !!!
+# Replace this with YOUR OWN OpenAI-compatible API key.
+# DO NOT commit real API keys to public repositories.
+OPENAI_KEY: sk-your-own-openai-api-key-here
+
+# Base URL for the OpenAI-compatible API endpoint
+# Example below uses Alibaba DashScope OpenAI-compatible mode
 base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+# Name of the language model to use
 model: deepseek-v3
