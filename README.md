@@ -205,6 +205,8 @@ python process.py
 Before running experiments, please modify the `project_root` field in `conf/base_config.yaml` and the checkpoint file path in `third_party/ovsam/sam_r50x16_fpn.py`. 
 Download all checkpoint files from [here](https://drive.google.com/drive/folders/1s_xgaooY_vQOIRDRtlik2YBZpe7_mc7G) and place them under `${project_root}/third_party/ovsam/ckpt/`.
 
+Please remember to update base_config.yaml by replacing OPENAI_KEY with your own.
+
 You can run the entire pipeline with a single command：
 ```Bash
 bash run.sh
